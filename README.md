@@ -7,7 +7,7 @@ To show my compiler as it was when I finished it.
 
 ## How to load on your machine
 
-This was meant to be a simplistic build so there is a simplistic instal. Follow the steps bellow: 
+This was meant to be a simplistic build so there is a simplistic install. Follow the steps bellow: 
 
 1. Clone this repository to your machine.
 2. Open up the index.html file.
