@@ -1,0 +1,74 @@
+body{
+  background-color: #eee;
+  color: #555;
+  text-align:center;
+  padding:0px;
+}
+textarea{
+  font-family: serif;
+  background-color: #fff;
+  width:400px;
+  margin: 4em auto;
+  padding: 0.5em;
+  border-radius: .25em;
+  box-shadow: .1em .1em .5em rgba(0,0,0,.45);
+  font-size:15px;
+}
+button{
+  display:inline-block;
+  background-color: #0040ff;
+  color: white;
+  padding: 10px 20px;
+  font-size:20px;
+  cursor:pointer;
+  text-align:center;
+  text-decoration:none;
+  outline:none;
+  border:none;
+  border-radius:15px;
+  box-shadow: 0 5px #999;
+}
+.button:hover{
+  background-color: #666666;
+}
+/*HAHAHAHAHAHHAHAHAHHAHAHHAHAHHAHAHHAHAHAHHAHAHHAHAHAHHAHAHHAHAHAHHAHAHAHAHAHHAHAHHAHAHHAHAHHAHAHHAHAHHAHHAHAHHAHAHHAHHAHAHAHHHAHAHHAHAHHAHAHAHHAHAHAHHAHAHAHHAHAHAHHAHAHAHAHHAHAHAHHAHAHAHHAHAHHAHAHAHAHHAHAHHAHAHAHHAHAHAHAHHAHAHAHHAHAHHAHAHHAHAHAHAHHAHAHHAHAHAHHAHAHAHHAHAHAHAHHAHHAAHAHAHHAHAHAHAHHAHAH... just accept it. let it sink in... the madness is comforting when you let it take over. The only difference between us is just one bad day.. ONE BAD DAY! HAHAHAHAHHAHA*/
+.button:active{
+  background-color: #666666;
+  box-shadow: 0 5px #666;
+  transform: translate(4px);
+}
+/*I just feel like there should be a comment... idk why. It just felt emptey. so this is css, it makes things look less shitty*/
+/*.container{
+  max-width: none;
+  width: 1000px;
+}
+.container .navbar-header{
+  margin-right: 0;
+  margin-left: 0;
+}*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4d4d4d;
+}
+.active {
+    background-color: #0040ff;
+}

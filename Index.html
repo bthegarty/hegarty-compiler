@@ -1,0 +1,42 @@
+<!--Brendan Hegarty-->
+<!--Index page-->
+<!doctype html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" href="style.css"></link>
+	<script src="js/lexer.js",></script>
+	<script src="js/parser.js"></script>
+	<script src="js/ast.js"></script>
+	<script src="js/codeGen.js"></script>
+</head>
+<body>
+	<ul>
+	  <li><a class="active" href="#home">Complier?</a></li><!--these dont go anywhere yet. ill worry about it later-->
+	  <li><a href="#success1">Success 1</a></li>
+	  <li><a href="#success2">Success 2</a></li>
+	  <li><a href="#fail1">Fail 1</a></li>
+	</ul>
+	<form>
+	<button type = "button" onclick="lexer();">Compile?</button>
+	<!-- <button onclick="parser(); return false">PARSE ME!</button> -->
+	<!-- <button onclick="ast(); return false">ANALYZE ME!</button> -->
+	<div class="container">
+		<!-- <label for="textarea">Input</label> -->
+		<textarea id="inputText" class="form-control" placeholder="Enter code" style="height: 180px;"></textarea>
+		<!--document get id by value store in var-->
+		<!-- <label for="textarea">Input</label> -->
+		<textarea id="outputText" class="form-control noResize" placeholder="Here comes the code, do in do do" style="height: 180px;" readonly="readonly"></textarea>
+		<!--document get id by value store in var-->
+		<textarea id="outputParse" class="form-control noResize" placeholder="CST goes here" style="height: 180px;" readonly="readonly"></textarea>
+	</br>
+		<!--document get id by value store in var-->
+		<textarea id="outputAST" class="form-control noResize" placeholder="AST goes here" style="height: 180px;" readonly="readonly"></textarea>
+		<textarea id="outputCode" class="form-control noResize" placeholder="Semantically Analyzed Output" style="height: 180px;" readonly="readonly"></textarea>
+		<textarea id="outputGen" class="form-control noResize" placeholder="Code Gen Here" style="height: 180px;" readonly="readonly"></textarea>
+	</div>
+	<!--button has to run lexer.js onclick-->
+	<!--I am one with the force.... the force probably isnt with me-->
+</form>
+</body>
+</html>
