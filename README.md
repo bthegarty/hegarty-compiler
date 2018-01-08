@@ -19,5 +19,7 @@ This was meant to be a simplistic build so there is a simplistic install. Follow
 
 The main complier functionality will likely only see small improvements when I have free time. However, I do have plans to improve the basic look of the page as well as add functionality to the top navigation bar. This is entirely dependent on when my free-time permits this. Like I said above though these changes will not go into this repository. Instead they can be found in the staging-repository that is also public.
 
+>> I keep a live version of this code @ https://bthegarty.github.io
+
 > -Brendan
 
